@@ -5,7 +5,7 @@ Modality-Adaptive Decoding (MAD) is a training-free decoding method for MLLMs th
 
 ## What is the Problem?
 
-Cross-modal hallucination differs from conventional hallucination in that it arises in multimodal models where multiple modalities are provided as input. Instead of generating unsupported content purely from language priors, the model produces incorrect predictions due to interference between modalities. (See related work: [AVCD](https://arxiv.org/pdf/2410.18325), [CMM](https://arxiv.org/pdf/2410.12787))
+Cross-modal hallucination differs from conventional hallucination in that it arises in multimodal models where multiple modalities are provided as input. Instead of generating unsupported content purely from language priors, the model produces incorrect predictions due to interference between modalities. (See related work: [AVHBench](https://arxiv.org/pdf/2410.18325), [CMM](https://arxiv.org/pdf/2410.12787))
 
 ###  Video 1 (Visual-Driven Audio Hallucination)
 
