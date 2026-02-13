@@ -1,15 +1,29 @@
-# MAD
+# Modality-Adaptive Decoding (MAD
 
 Modality-Adaptive Decoding (MAD) is a training-free decoding method for MLLMs that adaptively weights modality-specific branches via self-assessed modality relevance, effectively reducing cross-modal hallucinations.
 
 ## What is the Problem?
 
-| Video 1 (Visual-Driven Audio Hallucination) | Video 2 (Audio-Driven Video Hallucination) |
-|----------|----------|
-| <video src="assets/episode1.mp4" width="400" controls></video> | <video src="assets/episode2.mp4" width="400" controls></video> |
-| The main source of sound in the video is the **~~quacking of the ducks~~** | He's holding the gun and then **~~he pulls the trigger.~~** |
-
 Cross-modal hallucination differs from conventional hallucination in that it arises in multimodal models where multiple modalities are provided as input. Instead of generating unsupported content purely from language priors, the model produces incorrect predictions due to interference between modalities. (See related work: [AVCD](https://arxiv.org/pdf/2410.18325), [CMM](https://arxiv.org/pdf/2410.12787))
+
+###  Video 1 (Visual-Driven Audio Hallucination)
+
+https://github.com/user-attachments/assets/fa5760f2-40b3-4227-a55d-ec0effed0cab
+
+<p align="center">
+<b>Model Prediction:</b> The main source of sound is 
+<b>quacking of the ducks</b>
+</p>
+
+###  Video 2 (Visual-Driven Audio Hallucination)
+
+https://github.com/user-attachments/assets/5da66c4d-52a2-489a-b8e6-7fa1771e3237
+
+<p align="center">
+<b>Model Prediction:</b> He's holding the gun and then
+<b>he pulls the trigger</b>
+</p>
+
 
 **In Video 1 (Visual-Driven Audio Hallucination)**, the scene shows a metal duck (a shooting target) being hit by a gun. However, because the model visually detects a duck, it incorrectly concludes that the primary sound source is the quacking of ducks, even though no such sound exists.
 
