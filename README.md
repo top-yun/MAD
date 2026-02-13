@@ -16,6 +16,8 @@ https://github.com/user-attachments/assets/fa5760f2-40b3-4227-a55d-ec0effed0cab
 <b>quacking of the ducks</b>
 </p>
 
+**In Video 1 (Visual-Driven Audio Hallucination)**, the scene shows a metal duck (a shooting target) being hit by a gun. However, because the model visually detects a duck, it incorrectly concludes that the primary sound source is the quacking of ducks, even though no such sound exists.
+
 ###  Video 2 (Visual-Driven Audio Hallucination)
 
 https://github.com/user-attachments/assets/5da66c4d-52a2-489a-b8e6-7fa1771e3237
@@ -24,9 +26,6 @@ https://github.com/user-attachments/assets/5da66c4d-52a2-489a-b8e6-7fa1771e3237
 <b>Model Prediction:</b> He's holding the gun and then
 <b>he pulls the trigger</b>
 </p>
-
-
-**In Video 1 (Visual-Driven Audio Hallucination)**, the scene shows a metal duck (a shooting target) being hit by a gun. However, because the model visually detects a duck, it incorrectly concludes that the primary sound source is the quacking of ducks, even though no such sound exists.
 
 **In Video 2 (Audio-Driven Video Hallucination)**, gunshot sounds are heard in the environment. The man in the video is merely preparing to shoot, but the model assumes that he actually pulls the trigger, influenced by the audio cue.
 
