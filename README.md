@@ -197,7 +197,7 @@ python qwen-omni/score_cmm.py --f <result_json>
 - Use multiple GPUs with accelerate
 
 # Citation
-```
+```bibtex
 @misc{chung2026madmodalityadaptivedecodingmitigating,
       title={MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models}, 
       author={Sangyun Chung and Se Yeon Kim and Youngchae Chee and Yong Man Ro},
