@@ -1,7 +1,10 @@
 # Modality-Adaptive Decoding (MAD)
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2601.21181)
+[![Paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2601.21181) 
 
-Modality-Adaptive Decoding (MAD) is a training-free decoding method for MLLMs that adaptively weights modality-specific branches via self-assessed modality relevance, effectively reducing cross-modal hallucinations.
+Modality-Adaptive Decoding (MAD) is a training-free decoding method for MLLMs that adaptively weights modality-specific branches via self-assessed modality relevance, effectively reducing cross-modal hallucinations.  
+
+## News
+- ✅ Accepted at **CVPR 2026**
 
 ## What is the Problem?
 
