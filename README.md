@@ -1,5 +1,5 @@
 # Modality-Adaptive Decoding (MAD)
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2601.21181) 
+[![Paper](https://img.shields.io/badge/Paper-CVPR-blue)](https://openaccess.thecvf.com/content/CVPR2026/papers/Chung_MAD_Modality-Adaptive_Decoding_for_Mitigating_Cross-Modal_Hallucinations_in_Multimodal_Large_CVPR_2026_paper.pdf) 
 
 Modality-Adaptive Decoding (MAD) is a training-free decoding method for MLLMs that adaptively weights modality-specific branches via self-assessed modality relevance, effectively reducing cross-modal hallucinations.  
 
@@ -201,13 +201,12 @@ python qwen-omni/score_cmm.py --f <result_json>
 
 # Citation
 ```bibtex
-@misc{chung2026madmodalityadaptivedecodingmitigating,
-      title={MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models}, 
-      author={Sangyun Chung and Se Yeon Kim and Youngchae Chee and Yong Man Ro},
-      year={2026},
-      eprint={2601.21181},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2601.21181}, 
+@InProceedings{Chung_2026_CVPR,
+    author    = {Chung, Sangyun and Kim, Se Yeon and Chee, Youngchae and Ro, Yong Man},
+    title     = {MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {40175-40185}
 }
 ```
